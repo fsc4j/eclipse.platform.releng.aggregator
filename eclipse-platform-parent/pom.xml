@@ -180,59 +180,6 @@
       <url>https://repo.eclipse.org/content/repositories/eclipse-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-  <pluginRepositories>
-
-    <!-- Released Tycho versions are available on maven central, which is now mirrored to Eclipse.org.
-         The tycho-snapshot-repo is only needed when using snapshots. -->
-    <pluginRepository>
-      <id>tycho-snapshots</id>
-      <url>${tycho-snapshot-repo.url}</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-
-    <pluginRepository>
-      <id>cbi-jdt</id>
-      <url>${cbi-jdt-repo.url}</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>cbi-snapshots</id>
-      <url>${cbi-snapshots-repo.url}</url>
-      <snapshots>
-      <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>cbi-releases</id>
-      <url>${cbi-releases-repo.url}</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>eclipse</id>
-      <url>${eclipse-repo.url}</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
   <build>
     <plugins>
       <plugin>
