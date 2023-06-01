@@ -1,0 +1,35 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+<mirrors>
+  <mirror>
+    <id>tycho-snapshots-mirror</id>
+    <mirrorOf>tycho-snapshots</mirrorOf>
+    <url>http://localhost/</url>
+    <blocked>true</blocked>
+  </mirror>
+  <mirror>
+    <id>cbi-jdt-mirror</id>
+    <mirrorOf>cbi-jdt</mirrorOf>
+    <url>http://localhost/</url>
+    <blocked>true</blocked>
+  </mirror>
+  <mirror>
+    <id>cbi-snapshots-mirror</id>
+    <mirrorOf>cbi-snapshots</mirrorOf>
+    <url>http://localhost/</url>
+    <blocked>true</blocked>
+  </mirror>
+  <mirror>
+    <id>cbi-releases-mirror</id>
+    <mirrorOf>cbi-releases</mirrorOf>
+    <url>http://localhost/</url>
+    <blocked>true</blocked>
+  </mirror>
+  <mirror>
+    <id>eclipse-mirror</id>
+    <mirrorOf>eclipse</mirrorOf>
+    <url>http://localhost/</url>
+    <blocked>true</blocked>
+  </mirror>
+</mirrors>
+</settings>
